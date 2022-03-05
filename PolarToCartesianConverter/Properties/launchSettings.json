@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "PolarToCartesianConverter": {
+      "commandName": "Project",
+      "commandLineArgs": "AP_00010003 AP_0001000f"
+    }
+  }
+}
