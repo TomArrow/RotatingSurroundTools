@@ -13,10 +13,78 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Header Files\adm">
+      <UniqueIdentifier>{e6f8fd52-4b38-4267-ad64-5fec48abe294}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\bw64">
+      <UniqueIdentifier>{bfc83e6c-223e-4e30-9c96-e73067098da4}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="RoratingADMWavGenerator.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\adm\adm.hpp">
+      <Filter>Header Files\adm</Filter>
+    </ClInclude>
+    <ClInclude Include="include\adm\common_definitions.hpp">
+      <Filter>Header Files\adm</Filter>
+    </ClInclude>
+    <ClInclude Include="include\adm\document.hpp">
+      <Filter>Header Files\adm</Filter>
+    </ClInclude>
+    <ClInclude Include="include\adm\element_variant.hpp">
+      <Filter>Header Files\adm</Filter>
+    </ClInclude>
+    <ClInclude Include="include\adm\elements.hpp">
+      <Filter>Header Files\adm</Filter>
+    </ClInclude>
+    <ClInclude Include="include\adm\elements_fwd.hpp">
+      <Filter>Header Files\adm</Filter>
+    </ClInclude>
+    <ClInclude Include="include\adm\errors.hpp">
+      <Filter>Header Files\adm</Filter>
+    </ClInclude>
+    <ClInclude Include="include\adm\export.h">
+      <Filter>Header Files\adm</Filter>
+    </ClInclude>
+    <ClInclude Include="include\adm\parse.hpp">
+      <Filter>Header Files\adm</Filter>
+    </ClInclude>
+    <ClInclude Include="include\adm\path.hpp">
+      <Filter>Header Files\adm</Filter>
+    </ClInclude>
+    <ClInclude Include="include\adm\route.hpp">
+      <Filter>Header Files\adm</Filter>
+    </ClInclude>
+    <ClInclude Include="include\adm\route_tracer.hpp">
+      <Filter>Header Files\adm</Filter>
+    </ClInclude>
+    <ClInclude Include="include\adm\version.hpp">
+      <Filter>Header Files\adm</Filter>
+    </ClInclude>
+    <ClInclude Include="include\adm\write.hpp">
+      <Filter>Header Files\adm</Filter>
+    </ClInclude>
+    <ClInclude Include="include\bw64\bw64.hpp">
+      <Filter>Header Files\bw64</Filter>
+    </ClInclude>
+    <ClInclude Include="include\bw64\chunks.hpp">
+      <Filter>Header Files\bw64</Filter>
+    </ClInclude>
+    <ClInclude Include="include\bw64\parser.hpp">
+      <Filter>Header Files\bw64</Filter>
+    </ClInclude>
+    <ClInclude Include="include\bw64\reader.hpp">
+      <Filter>Header Files\bw64</Filter>
+    </ClInclude>
+    <ClInclude Include="include\bw64\utils.hpp">
+      <Filter>Header Files\bw64</Filter>
+    </ClInclude>
+    <ClInclude Include="include\bw64\writer.hpp">
+      <Filter>Header Files\bw64</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
